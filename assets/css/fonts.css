@@ -1,0 +1,69 @@
+@font-face
+{
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/opensans/open-sans-regular.ttf") format("truetype");
+}
+
+@font-face
+{
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/opensans/open-sans-italic.ttf") format("truetype");
+}
+
+@font-face
+{
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/opensans/open-sans-bold.ttf") format("truetype");
+}
+
+@font-face
+{
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/opensans/open-sans-bold-italic.ttf") format("truetype");
+}
+
+@font-face
+{
+  font-display: swap;
+  font-family: "Font Awesome";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/fontawesome/font-awesome-regular.otf") format("opentype");
+}
+
+@font-face
+{
+  font-display: swap;
+  font-family: "Font Awesome";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/fontawesome/font-awesome-solid.otf") format("opentype");
+}
+
+@font-face
+{
+  font-display: swap;
+  font-family: "Font Awesome Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/fontawesome/font-awesome-brands.otf") format("opentype");
+}
+
+:root
+{
+  --fontawesome: "Font Awesome", sans-serif;
+  --fontawesome-brands: "Font Awesome Brands", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+}

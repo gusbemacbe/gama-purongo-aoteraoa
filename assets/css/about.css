@@ -1,0 +1,131 @@
+h1.about
+{
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.about
+{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, auto);
+  padding-top: 180px;
+}
+
+.about .who
+{
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+  padding: 10px;
+}
+
+.about .who .image
+{
+  height: auto;
+  max-width: 100%;
+}
+
+.about .who label
+{
+  color: var(--color1);
+  display: block;
+  text-align: center;
+  width: 120px;
+}
+
+.linkedin
+{
+  height: 96px;
+}
+
+.about .who .modal p
+{
+  font-size: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+.about .who .modal p.first
+{
+  margin-top: 4rem
+}
+
+.about .who .modal p:last-child
+{
+  margin-bottom: 2.5rem;
+}
+
+@media only screen and (max-width: 1390px)
+{
+
+}
+
+@media only screen and (max-width: 1024px)
+{
+
+}
+
+@media only screen and (max-width: 990px)
+{
+
+}
+
+@media only screen and (max-width: 800px)
+{
+
+}
+
+@media only screen and (max-width: 780px)
+{
+
+}
+
+@media screen and (max-width: 640px)
+{
+
+}
+
+@media only screen and (max-width: 540px)
+{
+  .about
+  {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, auto);
+  }
+}
+
+@media only screen and (max-width: 428px)
+{
+
+}
+
+@media only screen and (max-width: 395px)
+{
+
+}
+
+@media only screen and (max-width: 384px)
+{
+
+}
+
+@media only screen and (max-width: 375px)
+{
+
+}
+
+@media only screen and (max-width: 320px)
+{
+
+}
+
+@media only screen and (max-width: 280px)
+{
+
+}
+
+@media only screen and (max-width: 240px)
+{
+
+}

@@ -1,0 +1,24 @@
+:root
+{
+  /* Navbar */
+  --nav-bg:             #28203e;
+  --nav-primary:        #e1e1e6;
+  --nav-primary-hover:  #cab2ff;
+
+  --color1: #FFFFFF;
+  --color2: #E1E1E6;
+  --color3: #04D361;
+  --color4: #9466FF;
+  --color5: #8257E5;
+  --color6: #734BD1;
+  --color7: #6833E4;
+  --color8: #29292E;
+  --color9: #28203E;
+  --color10: #2D1F4E;
+  --color11: #311F5A;
+  --color12: #231349;
+
+  /* Footer */
+  --footer-bg: #28203E;
+  --footer-fg: #E1E1E6;
+}

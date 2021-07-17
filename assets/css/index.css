@@ -1,0 +1,207 @@
+.welcome
+{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-content: space-between;
+  padding-top: 180px;
+}
+
+.welcome .text
+{
+  align-content: center;
+  display: grid;
+}
+
+.welcome .text h1
+{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 24px;
+}
+
+.welcome .text p
+{
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.welcome .image
+{
+  display: grid;
+  justify-content: center;
+}
+
+.welcome .image img
+{
+  height: auto;
+  max-width: 100%;
+}
+
+h1.news-text
+{
+ font-size: 56px;
+ font-weight: 700;
+ padding-bottom: 30px;
+}
+
+.news
+{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  padding-top: 30px;
+}
+
+.news .article
+{
+  background-color: var(--color1);
+  border: 1px solid var(--color5);
+  border-radius: 5px;
+  
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, auto);
+  padding: 56px 72px 80px;
+}
+
+.news .article:hover
+{
+ border: 1px solid var(--color3);
+}
+
+.news .article .image-news
+{
+ border-radius: 10px;
+ height: auto;
+ max-width: 100%;
+}
+
+.news .article label
+{
+  color: var(--color1);
+  display: block;
+  height: 40px;
+  text-align: center;
+  /* width: 120px; */
+}
+
+.news .article h3,
+.news .article h4
+{
+  margin-top: 3em;
+}
+
+.news .article p
+{
+  margin-top: 0px;
+  padding: 0px
+}
+
+.news .article .modal p
+{
+  font-size: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+.news .article .modal p.first
+{
+  margin-top: 4rem
+}
+
+.news .article .modal p:last-child
+{
+  margin-bottom: 2.5rem;
+}
+
+@media only screen and (max-width: 1390px)
+{
+
+}
+
+@media only screen and (max-width: 1024px)
+{
+
+}
+
+@media only screen and (max-width: 990px)
+{
+  .news
+  {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, auto);
+  }
+}
+
+@media only screen and (max-width: 800px)
+{
+
+}
+
+@media only screen and (max-width: 780px)
+{
+  .welcome
+  {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, auto);
+  }
+
+  h1.news-text
+  {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 640px)
+{
+
+}
+
+@media only screen and (max-width: 540px)
+{
+  .news .article
+  {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 428px)
+{
+
+}
+
+@media only screen and (max-width: 395px)
+{
+
+}
+
+@media only screen and (max-width: 384px)
+{
+
+}
+
+@media only screen and (max-width: 375px)
+{
+
+}
+
+@media only screen and (max-width: 320px)
+{
+
+}
+
+@media only screen and (max-width: 280px)
+{
+
+}
+
+@media only screen and (max-width: 240px)
+{
+
+}
+

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link href="assets/css/global.css" rel="stylesheet" type="text/css" media="all">
+    <link href="assets/css/colours.css" rel="stylesheet" type="text/css" media="all">
+    <link href="assets/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css" media="all">
+    <link href="assets/css/index.css" rel="stylesheet" type="text/css" media="all">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" href="assets/images/favicons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Projeto Equipe 8 Gama Pūrongo Aoteraoa: compartilhando notícias positivas sobre a Covid-19 que você talvez ainda não tenha visto por aí.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gama Pūrongo Aoteraoa – Notícias</title>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="/index.html"><span class="sr-only">Início</span><div class="logotype" title="Logotipo com o nome do jornal chamado Gama Pūrongo e um ícone do mapa da Nova Zelândia, que representa o site do jornal."></div></a>
+
+            <ul class="list">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">Sobre</a></li>
+                <li><a href="/contact.html">Contato</a></li>
+                <li><a href="/find-out-more.html">Saiba mais</a></li>
+            </ul>
+    
+            <ul class="tools">
+                <li>
+                    <div class="toggle">
+                        <input id="switch" name="theme" type="checkbox">
+                        <label for="switch">Alto contraste</label>
+                    </div>
+                </li>
+                <li><button id="increase">A+</button></li>
+                <li><button id="decrease">A-</button></li>
+                <li class="menu"><i class="fas fa-bars" onclick="openNav()"></i></li>
+            </ul>
+        </div>
+
+        <div class="sidenav" id="SideNav">
+            <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+            <a href="/index.html">Home</a>
+            <a href="/about.html">Sobre</a>
+            <a href="/contact.html">Contato</a>
+            <a href="/find-out-more.html">Saiba mais</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="welcome">
+            <div class="text">
+                <h1>Seja bem-vindo(a)!</h1>
+                <p>A mídia e os jornais nos bombardeiam com milhares de notícias negativas e sensacionalistas sobre a corrupção, as desigualdades sociais, a guerra, as pandemias e à violência há anos e não nos trouxeram apenas informações boas relacionadas às práticas científicas que beneficiam a população mundial. Para mudar esse cenário, desenvolvemos esta página, trazendo notícias que possam mudar a vida das pessoas e trazer-nos o ânimo e a esperança ao mundo.</p>
+            </div>
+
+            <div class="image">
+                <img alt="Foto de um médico negro sorrindo de frente usando um jaleco branco e com um estetoscópio no pescoço." src="assets/images/doctor.svg">
+            </div>
+        </section>
+
+        <h1 class="news-text">Notícias</h1>
+
+        <section class="news">
+            
+            <div class="article article-1">
+                <h2>Brasil ultrapassa marca de 100 milhões de doses de vacinas Covid-19 aplicadas</h2>
+                <p>No Brasil, considera-se público vacinável pessoas maiores de 18 anos, o que corresponde a mais de 160 milhões de brasileiros. Será possível, com o empenho de todos, vacinar a população brasileira acima de 18 anos até o final de 2021. A campanha nacional de vacinação contra a doença é prioridade do Ministério da Saúde e segue em ritmo acelerado em todo o país.</p>
+                <img alt="Foto de uma mulher sendo vacinada no braço por uma enfermeira." class="image-news" src="assets/images/news/news-01.png">
+
+                <a data-modal="modal-1">Leia mais</a>
+
+                <div class="modal" id="modal-1">
+                    <div class="modal-bg modal-exit"></div>
+                    <div class="modal-container">
+                        <p class="first">O Brasil ultrapassou nesta quarta-feira (30) mais uma marca na corrida pela imunização contra a Covid-19: mais de 100 milhões de doses de vacinas já foram aplicadas na população brasileira. A campanha nacional de vacinação contra a doença é prioridade do Ministério da Saúde e segue em ritmo acelerado em todo o país.</p>
+
+                        <p>Mais de 74 milhões de pessoas já receberam a primeira dose da vacina. Isso significa que 45% do público-alvo já foi imunizado até agora. No Brasil, considera-se público vacinável pessoas maiores de 18 anos, o que corresponde a mais de 160 milhões de brasileiros.</p>
+
+                        <p>A vacinação é prioridade do Ministério da Saúde para superar a crise pandêmica da Covid-19. O ministro Marcelo Queiroga estima que até o fim do ano toda a população adulta já esteja imunizada contra a doença.</p>
+
+                        <p>“Será possível, com o empenho de todos, vacinar a população brasileira acima de 18 anos até o final de 2021. Essa é a nossa esperança, esse é o nosso compromisso”, afirmou o titular da pasta.</p>
+
+                        <p>O Ministério da Saúde já distribuiu mais de 135 milhões de doses de imunizantes de diferentes laboratórios contratados para estados e Distrito Federal desde o início da campanha de vacinação, em janeiro deste ano.</p>
+
+                        <p>Vários grupos prioritários, definidos pelo Plano Nacional de Operacionalização da Vacinação contra a Covid-19 (PNO), já foram contemplados, como idosos acima de 60 anos, profissionais de saúde, população ribeirinha, entre outros.</p>
+
+                        <p><b>Fonte:</b> <a href="https://www.gov.br/saude/pt-br/assuntos/noticias/brasil-ultrapassa-marca-de-100-milhoes-de-doses-de-vacinas-covid-19-aplicadas">Ministério da Saúde</a></p>
+
+                        <button class="modal-close modal-exit">Fechar</button>
+                        <button class="modal-return modal-exit">Voltar</button>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="article article-2">
+                <h2>A importância da tecnologia no combate à pandemia da COVID-19</h2>
+                <p>A pandemia pelo novo coronavírus é um assunto notório que traz profundas implicações aos planos de saúde pública. Embora haja preocupações em relação aos seus impactos econômicos, sociais e sanitários, o momento também abre margem para a inovação: cada vez mais se fala na aplicação da tecnologia na pandemia e no período que a procederá.</p>
+                <img alt="Imagem de uma placa de computador com o símbolo do vírus da Covid-19 ao centro e escrito Coronavirus na parte inferior" class="image-news" src="assets/images/news/news-02.png">
+
+                <a data-modal="modal-2">Leia mais</a>
+
+                <div class="modal" id="modal-2">
+                    <div class="modal-bg modal-exit"></div>
+                    <div class="modal-container">
+                        <h3>Qual a importância da tecnologia no combate ao novo coronavírus?</h3>
+
+                        <p>Logo no surgimento da Covid-19, percebemos um impacto econômico significativo derivado da pandemia: as projeções atuais preveem uma queda de cerca de 6,5% no PIB brasileiro em 2020, um valor único nas últimas décadas. Ele se deve, em parte, ao resfriamento da economia e ao afastamento do trabalho por motivos de saúde ? o que não significa, no entanto, que ele seja infundado.</p>
+                        <p>O distanciamento social se tornou uma ferramenta planetária no combate à Covid-19. O raciocínio para o seu funcionamento é simples: evitamos o contato direto com infectados e freamos a transmissão do coronavírus, que ocorre via partículas e gotículas respiratórias. Com uma curva menos acentuada dos casos, corremos menos risco de sofrer uma sobrecarga do sistema de saúde, que não tem condições de atender a todos no mesmo momento.</p>
+                        <p>Nesse sentido, a tecnologia nos auxilia na obtenção e na análise de dados em tempo real. Com ela, monitoramos de perto nossas intervenções e acompanhamos de maneira fidedigna o crescimento da pandemia. Além disso, ela também permite o trabalho remoto, que ameniza o impacto negativo do distanciamento social na nossa economia.</p>
+                        
+                        <h3>Como as soluções tecnológicas têm sido utilizadas nesse contexto?</h3>
+
+                        <p>Como mencionamos, a aplicação da tecnologia na pandemia tem caráter direto e indireto. A seguir, abordaremos as principais utilizações dela nesse momento. Confira!</p>
+                        
+                        <h4>1. Compartilhamento de informações</h4>
+
+                        <p>Na história da humanidade, nenhuma pandemia contou com um levantamento e cruzamento de dados tão eficiente quanto a da Covid-19. Bastam pesquisas rápidas para nos informarmos com notícias em tempo real sobre o número de infectados, recuperados e de óbitos pela doença.</p>
+                        <p>Embora haja uma preocupação contemporânea em relação às Fake News, a informação de qualidade também foi impulsionada durante a pandemia: além de termos aumentado o número de pesquisas científicas, também criamos datasets internacionais de compartilhamento de dados sobre a Covid-19. A manutenção da produção científica nessa escala no período pós-pandemia, no entanto, será um desafio em todo o mundo.</p>
+                        
+                        <h4>2. Rastreamento de pessoas infectadas</h4>
+
+                        <p>Dados são valiosos quando guiam intervenções eficazes. Essa máxima é utilizada pela gestão da saúde ? seja ela pública ou privada ? para auxiliar no controle e no mapeamento da doença.</p>                    
+                        <p>Esse cruzamento de dados é especialmente importante no rastreamento de pessoas infectadas: por questões financeiras e logísticas, o rastreamento global da população não é uma alternativa viável no Brasil atualmente. Por esse motivo, devemos ter critérios específicos para o teste e o rastreio de infectados, de modo a maximizar nossos resultados.</p>
+                        <p>Nesse sentido, a tecnologia e a ciência de dados servem para guiar nossas condutas, desde o escritório de gestão até dentro dos consultórios. Elas nos ajudam a definir quem, onde e quando testar, prevendo o comportamento da pandemia e das populações em maior risco. Também é possível mapear os casos e entender espacialmente a velocidade de disseminação do vírus.</p>
+                        
+                        <h4>3. Vacinas</h4>
+
+                        <p>As vacinas para o novo coronavírus alcançaram os holofotes por serem uma possível solução para a pandemia. Alguns países, como a Rússia, já aprovaram suas próprias vacinas ou iniciaram a testagem em massa na população.</p>
+                        <p>A produção de uma vacina, no entanto, não é uma tarefa fácil. Em condições normais, devido ao rigor necessário para a sua aprovação, ela pode demorar anos para ser disponibilizada ao público.</p>
+                        <p>Na atual pandemia, o surgimento mais rápido de uma vacina pode ser possível, devido a dois fatores principais: o primeiro é a urgência do momento, que foca nossos recursos humanos, financeiros e tecnológicos a essa descoberta. O segundo é a tecnologia de ponta disponível nos laboratórios de bioquímica, que agiliza o isolamento de partículas virais e sua conjugação ? processo necessário à produção final da vacina.</p>
+                        
+                        <h4>4. Monitoramento do isolamento social</h4>
+
+                        <p>Por fim, outra tecnologia que ganhou espaço na mídia nos últimos meses é o monitoramento do isolamento social. Realizando uma parceria com as redes de telefonia móvel, foi possível identificar focos de aglomeração e monitorar o trânsito das pessoas.</p>
+                        <p>Além disso, a aprovação da telemedicina durante o período emergencial possibilitou um acompanhamento remoto de pacientes em isolamento. Isso permite à equipe médica verificar estreitamente o quadro clínico, sem o risco de contaminação de outros pacientes no pronto atendimento.</p>
+
+                        <p><b>Fonte:</b> <a href="https://sindpd.org.br/sindpd/site/noticia.jsp?A-importancia-da-tecnologia-no-combate-a-pandemia-da-COVID-19&id=1619460844146">SINDPD</a> </p>
+
+                        <button class="modal-close modal-exit">Fechar</button>
+                        <button class="modal-return modal-exit">Voltar</button>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="article article-3">
+                <h2>Paciente recuperado da Covid grava música para equipe que cuidou dele</h2>
+                <p>Após alta hospitalar, Heverson da Silva Oliveira, de 35 anos, buscou uma forma de expressar a gratidão pela equipe do Hospital São José, onde esteve internado com Covid-19.</p>
+
+                <!-- <img alt="article" class="image-news" src="assets/images/article-1.jpg"> -->
+
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/Jyc91wZ2ia8" title="Paciente recuperado da Covid grava música para equipe que cuidou dele"></iframe>
+                </div>
+
+                <a data-modal="modal-3">Leia mais</a>
+
+                <div class="modal" id="modal-3">
+                    <div class="modal-bg modal-exit"></div>
+                    <div class="modal-container">
+                        <h3>Primeiros sintomas</h3>
+
+                        <p>Heverson foi internado no Hospital São José, em Fortaleza, no dia 3 de março. Ele contou que estava com os sintomas há 12 dias, mas tratava a doença em casa. No dia, sentiu-se mal, foi para o hospital e precisou ficar intubado.</p>
+                        <p>O jovem ficou 22 dias inconsciente na UTI. A alta hospitalar veio no dia 12 de abril. Apesar de ainda estar com a saúde debilitada, Heverson conta que só sabia agradecer pela vitória.</p>
+                        <p>“Só tenho a agradecer. Fui tratado bem por todos. Eu nunca imaginei que um hospital pudesse ser uma família, como esse hospital é”.</p>
+                        
+                        <h3>Homenagem</h3>
+                        
+                        <p>Heverson escreveu a canção “Descansa”, pouco tempo antes de testar positivo para a Covid-19. A música traz uma mensagem de conforto e esperança para quem enfrenta momentos difíceis.</p>
+                        <p>Quando recebeu alta, o ex-paciente disse que pensou em gravá-la em estúdio, para então homenagear a equipe do hospital.</p>
+                        <p>O jovem foi até o pátio do hospital, junto com o irmão, para apresentar a canção e agradecer, mais uma vez, pelos cuidados que recebeu.</p>
+                        <p>Zélia Rodrigues estava entre os funcionários do HSJ que acompanharam a apresentação da dupla e ficou tocada com a iniciativa.</p>
+                        <p>“Todos do São José trabalham em prol do paciente. Por isso, nos enche de alegria ver uma pessoa que foi atendida aqui retornar ao hospital para elogiar e agradecer pelo atendimento recebido”, declarou.</p>
+                        <p>Uma linda atitude, repleta de empatia e gratidão! Parabéns pela canção e pelo coração gigante, Heverson!</p>
+
+                        <p><b>Fonte:</b> <a href="https://www.sonoticiaboa.com.br/2021/07/16/paciente-recuperado-covid-grava-musica-equipe-cuidou-dele/">Só Notícia Boa</a></p>
+
+                        <button class="modal-close modal-exit">Fechar</button>
+                        <button class="modal-return modal-exit">Voltar</button>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="article article-4">
+                <h2>Butantan anuncia testes de vacina 100% nacional</h2>
+                <p>Em 26 de março, o governador de São Paulo e o diretor do Butantan, Dimas Covas, anunciaram, pela primeira vez, a ButanVac, vacina totalmente desenvolvida pelo instituto paulista e 100% nacional, que pode ser produzida sem a necessidade da importação de insumo.</p>
+                <!-- <img alt="article" class="image-news" src="assets/images/article-1.jpg"> -->
+
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/TUaimxuW7sM"  title="Butantan anuncia testes de vacina 100% nacional"></iframe>
+                </div>
+
+                <a data-modal="modal-4">Leia mais</a>
+
+                <div class="modal" id="modal-4">
+                    <div class="modal-bg modal-exit"></div>
+                    <div class="modal-container">
+
+                        <p class="first">Horas após o governador de São Paulo, João Doria (PSDB), anunciar o desenvolvimento de uma vacina brasileira contra Covid-19 no Instituto Butantan a,<strong> ButanVac</strong>, o ministro da Ciência, Tecnologia, <span>Inovações e Telecomunicações, </span>Marcos Pontes, anunciou avanços outro antígeno nacional em adiantado estado de desenvolvimento, mas ainda sem nome divulgado.</p>
+                        <p>Pontes afirmou que esse imunizante teve protocolado ontem , quinta-feira, 25, o pedido de estudo de fase inicial junto à Agência Nacional de Vigilância Sanitária (<strong>Anvisa</strong>). O imunizante é desenvolvido pela Faculdade de Medicina de Ribeirão Preto da Universidade de São Paulo. De acordo com o ministro, outras vacinas desenvolvidas no país estão em fase avançada.</p>
+                        <p>O ministro disse que serão recrutados cerca de 360 voluntários neste primeiro momento e que o estudo inicial deve durar por volta de três meses.</p>
+                        <p>Ao longo da mesma entrevista coletiva, o novo ministro da Saúde, Marcelo Queiroga, pediu que os brasileiros não abram mão do uso de máscaras de proteção facial e ainda ensaiou um slogan: “pátria de máscara”. Queiroga utilizava duas máscaras de proteção ao longo da conversa com os jornalistas.</p>
+                        <p>Doria anunciou nesta manhã que a ButanVac teria o pedido de estudo protocolado na Anvisa ainda hoje.</p>
+
+                        <p><b>Fonte:</b> <a href="https://veja.abril.com.br/saude/covid-19-governo-federal-anuncia-testes-de-outra-vacina-brasileira/">Veja Saúde</a> </p>
+
+                        <button class="modal-close modal-exit">Fechar</button>
+                        <button class="modal-return modal-exit">Voltar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="article article-5">
+                <h2>Coronavírus: servidor da UFSC produz vídeos em Língua Brasileira de Sinais</h2>
+                <p>Pensando nestas pessoas, o servidor da Universidade Federal de Santa Catarina, Carlos Grahamhill Maciel de Moura, tomou a iniciativa de elaborar vídeos em Libras sobre a Covid-19.</p>
+
+                <img alt="Imagem de fundo verde com um idoso de pele branca usando uma máscara azul e camiseta amarela apontando para um texto que diz: orientações UFSC com ciência pela vida." class="image-news" src="assets/images/news/news-05.png">
+
+                <a data-modal="modal-5">Leia mais</a>
+
+                <div class="modal" id="modal-5">
+                    <div class="modal-bg modal-exit"></div>
+                    <div class="modal-container">
+                        
+                        <p class="first">Uma das principais ferramentas contra a disseminação do Coronavírus é a informação de qualidade, mas há um público que tem pouco acesso a essas informações e orientações produzidas pelos especialistas: as pessoas surdas e que se comunicam somente na Língua Brasileira de Sinais (Libras). Pensando nestas pessoas, o servidor da Universidade Federal de Santa Catarina (UFSC) Carlos Grahamhill Maciel de Moura tomou a iniciativa de elaborar vídeos sobre a Covid-19 em Libras.</p>
+                        <p>Inicialmente, os vídeos são produzidos de forma simples, com poucos recursos e sem edição, nos estúdios da TV UFSC. Lá são gravadas lives na rede social Instagram. Esse formato foi pensado de modo a minimizar o deslocamento e aglomeração de pessoas no estúdio, levando em conta as estratégias de distanciamento social. “Porém, percebemos que um número grande de pessoas queriam visualizar este conteúdo num outro momento do dia, por isso começamos também a disponibilizar o material gravado no YouTube, com livre acesso para todos”, diz o servidor. Assim surgiu o <a href="https://www.youtube.com/watch?v=4XEMUAwlk1o">canal do Youtube Viva Mais Libras</a>.</p>
+                        <p>A ideia é comentar notícias do dia com relação ao novo coronavírus, sem limitar-se à questão da saúde. Os vídeos também pretendem abordar como a “quarentena” afeta o mercado de trabalho, o mercado financeiro e as atividades do dia-a-dia. Como exemplo, ele cita projetos de lei e negociações entre inquilinos e locadores de imóveis sobre aluguel. “Isso o surdo precisa saber para ter a oportunidade de fazer o mesmo, essas informações precisam chegar até ele”, diz o servidor.</p>
+                        <p>Moura diz que há um esforço para produzir um programa por dia, na tentativa de acompanhar a velocidade dos fatos, das decisões governamentais e das medidas tomadas em relação à Covid-19. “Digo sempre no programa que informação é poder, e os surdos precisam ter esse poder para tomarem suas decisões de forma correta e assim resguardarem a sua saúde física e emocional”.</p>
+                        <p>O formato dos vídeos é o de conversa, com a apresentação de informações produzidas diretamente em língua de sinais. Essa é a melhor forma de passar as informações para pessoas surdas, afirma Moura, baseado nas experiências de seu trabalho – ele é servidor tradutor intérprete de Libras na UFSC. Quando se faz apenas uma tradução de notícias e informações produzidas em língua portuguesa, “ela dificilmente irá possuir uma linguagem adequada aos surdos, e com isso o objetivo daquela mensagem acaba se perdendo”, afirma o apresentador.</p>
+                        <p>Atualmente, quem conversa com Moura nos vídeos é uma pessoa surda, o professor formado pela UFSC Rui Zuzza. “Após tudo isso passar, poderemos repensar todo o projeto, fazer um balanço da sua importância e do seu alcance e trabalhar melhor no seu formato, periodicidade, trazer convidados diferentes para participar de nossas ´conversas informativas`”, finaliza Moura.</p>
+                        <p>Outra iniciativa para este público na universidade é o <a href="https://www.instagram.com/ufscacessivel/">Instagram UFSC Acessível</a>, desenvolvido pelo programa de extensão de acessibilidade em Libras da Universidade Federal de Santa Catarina (UFSC). O perfil traz informações sobre a doença e de ações da instituição.</p>
+
+                        <p><b>Fonte:</b> <a href="https://noticias.ufsc.br/2020/04/coronavirus-conheca-canais-de-informacao-sobre-a-covid-19-em-libras/">UFSC Notícias</a></p>
+
+                        <button class="modal-close modal-exit">Fechar</button>
+                        <button class="modal-return modal-exit">Voltar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="article article-6">
+                <h2>Amamentação com segurança em tempos de Covid-19</h2>
+                
+                <p>A amamentação dos bebês nesse período da pandemia pode gerar muitas dúvidas para as mães e pais. Mas você sabe qual a recomendação em relação ao aleitamento quando a mãe foi diagnosticada com o Covid-19? Ouça já o novo episódio do <i>podcast</i> Comida de Verdade e fique por dentro!</p>
+                
+                <div class="audio">
+                    <iframe src="https://anchor.fm/comida-de-verdade/embed/episodes/T02---EP08-Amamentao-com-segurana-em-tempos-de-Covid-19-evgtg0/a-a5bef7g" style="overflow-y: hidden;" title="Amamentação com segurança em tempos de Covid-19"></iframe>
+                </div>
+
+                <img alt="Imagem de uma mulher branca de cabelos pretos e lisos usando uma blusa vermelha e amamentando um bebê de colo." class="image-news" src="assets/images/news/news-06.png">
+            </div>
+            
+        </section>
+
+        <section>
+            <div class="enabled" vw>
+                <div class="active" role="button" vw-access-button></div>
+                <div vw-plugin-wrapper="">
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>O objetivo deste projeto é compartilhar notícias positivas sobre a Covid-19 que viraram destaque na mídia.</p>
+            <img alt="Logotipo de Gama Pūrongo Aoteraoa" src="assets/images/logotype.svg">
+            <p>© 2021 Equipe 8 Gama Pūrongo Aoteraoa - Todos os direitos reservados.</p>
+            <p>Programa de Formação Tech Itaú PCD em parceria com a Gama Academy.</p>
+        </div>
+    </footer>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script src="assets/js/global.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+html, body
+{
+ height: 100%;
+}
+
+body
+{
+ display: grid;
+}
+
+.container-form 
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 100%;
+}
+
+.typeform-widget 
+{
+ margin-top: 70px;
+ width: 100%;
+ height: 800px;
+}
+
+@media only screen and (max-width: 1390px)
+{
+
+}
+
+@media only screen and (max-width: 1024px)
+{
+
+}
+
+@media only screen and (max-width: 990px)
+{
+
+}
+
+@media only screen and (max-width: 800px)
+{
+
+}
+
+@media only screen and (max-width: 780px)
+{
+
+}
+
+@media screen and (max-width: 640px)
+{
+
+}
+
+@media only screen and (max-width: 540px)
+{
+
+}
+
+@media only screen and (max-width: 428px)
+{
+
+}
+
+@media only screen and (max-width: 395px)
+{
+
+}
+
+@media only screen and (max-width: 384px)
+{
+
+}
+
+@media only screen and (max-width: 375px)
+{
+
+}
+
+@media only screen and (max-width: 320px)
+{
+
+}
+
+@media only screen and (max-width: 280px)
+{
+
+}
+
+@media only screen and (max-width: 240px)
+{
+
+}
