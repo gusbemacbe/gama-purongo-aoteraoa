@@ -25,6 +25,7 @@ Visual Studio Code Insiders no Linux.
 #### Autoria
 
 **Número do grupo:** 08
+
 **Nome do grupo:** Grupo Itaú Aoteraoa
 
 - **Membros**
