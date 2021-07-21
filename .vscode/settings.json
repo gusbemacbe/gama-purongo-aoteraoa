@@ -1,0 +1,7 @@
+{
+  "markdown.preview.fontFamily": "'Google Sans', sans-serif",
+  "markdown.styles": 
+  [
+    ".vscode/css/markdown.css"
+  ]
+}

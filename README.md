@@ -2,6 +2,10 @@
 ## Site de notícias
 ### Gama Pūrongo Aoteaora
 
+<p style="text-align: center">
+  <img src="assets/images/logotype-purple.svg" alt="Logotipo com o nome do jornal chamado Gama Pūrongo e um ícone do mapa da Nova Zelândia, que representa o site do jornal.">
+</p>
+
 #### Descrição
 
 Um projeto de site de notícias com 6 melhores notícias positivas sobre o COVID-19. Feito em puro CSS, HTML e JavaScript. 
