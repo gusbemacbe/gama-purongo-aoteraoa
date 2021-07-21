@@ -1,33 +1,21 @@
 // Increase or decrease the text size
-// AUmentar ou diminuir o tamanho do texto
+// Aumentar ou diminuir o tamanho do texto
 
-var min = 8;
-var max = 18;
+const changeFontSize = (value) => 
+{
+  const property = '--paragraph-size'
+  const html = document.documentElement
+  const htmlStyle = html.style
+  const oldSize = getComputedStyle(html).getPropertyValue(property).replace('px', '')
 
-function changeFontSize(delta) {
-  var tags = document.querySelectorAll('p,blockquote');
-  for (i = 0; i < tags.length; i++) {
-    if (tags[i].style.fontSize) {
-      var s = parseInt(tags[i].style.fontSize.replace("px", ""));
-    } else {
-      var s = 12;
-    } if (s != max) {
-      s += delta;
-    }
-    tags[i].style.fontSize = s + "px"
-  }
+  htmlStyle.setProperty(property, `${+oldSize + value}px`)
 }
 
-function increaseFontSize() {
-  changeFontSize(1);
-}
+const increaseFontSize = changeFontSize.bind(null, 1)
+const decreaseFontSize = changeFontSize.bind(null, -1)
 
-function decreaseFontSize() {
-  changeFontSize(-1);
-}
-
-document.getElementById('increase').onclick = increaseFontSize;
-document.getElementById('decrease').onclick = decreaseFontSize;
+document.getElementById('increase').onclick = increaseFontSize
+document.getElementById('decrease').onclick = decreaseFontSize
 
 // Toggle the dark mode
 // Ativar o modo escuro
@@ -88,11 +76,16 @@ const createOrEditLocalStorage = (key, value) =>
 const getValeuLocalStorage = (key) =>
   JSON.parse(localStorage.getItem(key))
 
-checkbox.addEventListener("change", ({target}) => {
-  if (target.checked) {
+checkbox.addEventListener("change", ({target}) => 
+{
+  if (target.checked) 
+  {
     changeColors(darkMode) 
     createOrEditLocalStorage('modo','darkMode')
-  } else {
+  } 
+  
+  else 
+  {
     changeColors(initialColors)
     createOrEditLocalStorage('modo','initialColors')
   }
@@ -102,10 +95,14 @@ if(!isExistLocalStorage('modo'))
   createOrEditLocalStorage('modo', 'initialColors')
 
 
-if (getValeuLocalStorage('modo') === "initialColors") {
+if (getValeuLocalStorage('modo') === "initialColors") 
+{
   checkbox.removeAttribute('checked')
   changeColors(initialColors);
-} else {
+} 
+
+else 
+{
   checkbox.setAttribute('checked', "")
   changeColors(darkMode);
 }

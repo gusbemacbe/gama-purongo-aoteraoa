@@ -1,3 +1,8 @@
+:root
+{
+  --paragraph-size: 18px;
+}
+
 h1.about
 {
   font-size: 56px;
@@ -42,7 +47,7 @@ h1.about
 
 .about .who .modal p
 {
-  font-size: 1.25rem;
+  font-size: var(--paragraph-size, 18px);
   margin-top: 2.5rem;
 }
 
@@ -56,76 +61,11 @@ h1.about
   margin-bottom: 2.5rem;
 }
 
-@media only screen and (max-width: 1390px)
-{
-
-}
-
-@media only screen and (max-width: 1024px)
-{
-
-}
-
-@media only screen and (max-width: 990px)
-{
-
-}
-
-@media only screen and (max-width: 800px)
-{
-
-}
-
-@media only screen and (max-width: 780px)
-{
-
-}
-
-@media screen and (max-width: 640px)
-{
-
-}
-
 @media only screen and (max-width: 540px)
 {
   .about
   {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(10, auto);
+    grid-template-rows: repeat(5, auto);
   }
-}
-
-@media only screen and (max-width: 428px)
-{
-
-}
-
-@media only screen and (max-width: 395px)
-{
-
-}
-
-@media only screen and (max-width: 384px)
-{
-
-}
-
-@media only screen and (max-width: 375px)
-{
-
-}
-
-@media only screen and (max-width: 320px)
-{
-
-}
-
-@media only screen and (max-width: 280px)
-{
-
-}
-
-@media only screen and (max-width: 240px)
-{
-
 }

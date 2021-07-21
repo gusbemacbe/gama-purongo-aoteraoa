@@ -1,3 +1,8 @@
+:root
+{
+  --paragraph-size: 18px;
+}
+
 html, body
 {
  height: 100%;
@@ -14,6 +19,11 @@ h1.find
   font-size: 56px;
   font-weight: 700;
   padding-top: 180px;
+}
+
+p
+{
+  font-size: var(--paragraph-size, 18px);
 }
 
 section.find
@@ -68,74 +78,4 @@ footer
 {
  display: grid;
  align-content: center;
-}
-
-@media only screen and (max-width: 1390px)
-{
-
-}
-
-@media only screen and (max-width: 1024px)
-{
-
-}
-
-@media only screen and (max-width: 990px)
-{
-
-}
-
-@media only screen and (max-width: 800px)
-{
-
-}
-
-@media only screen and (max-width: 780px)
-{
-
-}
-
-@media screen and (max-width: 640px)
-{
-
-}
-
-@media only screen and (max-width: 540px)
-{
-
-}
-
-@media only screen and (max-width: 428px)
-{
-
-}
-
-@media only screen and (max-width: 395px)
-{
-
-}
-
-@media only screen and (max-width: 384px)
-{
-
-}
-
-@media only screen and (max-width: 375px)
-{
-
-}
-
-@media only screen and (max-width: 320px)
-{
-
-}
-
-@media only screen and (max-width: 280px)
-{
-
-}
-
-@media only screen and (max-width: 240px)
-{
-
 }

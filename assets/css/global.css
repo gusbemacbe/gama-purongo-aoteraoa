@@ -1,3 +1,8 @@
+:root
+{
+  --paragraph-size: 16px;
+}
+
 *
 {
   box-sizing: border-box;
@@ -296,7 +301,7 @@ h4
 
 p
 {
-  font-size: 1.25rem;
+  font-size: var(--paragraph-size, 16px);
   line-height: 2rem;
   margin-top: 2.5rem;
 }
