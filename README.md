@@ -1,12 +1,12 @@
 # Projeto Final Itaú Formação Tech Edição
 ## Site de notícias
-### Gama Pūrongo Aoteraoa
+### Gama Pūrongo Aoteaora
 
 #### Descrição
 
 Um projeto de site de notícias com 6 melhores notícias positivas sobre o COVID-19. Feito em puro CSS, HTML e JavaScript. 
 
-O nome do site de notícias se chama Gama Pūrongo Aoteraoa, que significa Relatório Gama da Nova Zelândia, em maori, porque a Nova Zelândia é um exemplo de boas notícias sobre o combate contra COVID-19 na Nova Zelândia. 
+O nome do site de notícias se chama Gama Pūrongo Aoteaora, que significa Relatório Gama da Nova Zelândia, em maori, porque a Nova Zelândia é um exemplo de boas notícias sobre o combate contra COVID-19 na Nova Zelândia. 
 
 #### Objetivo
 
@@ -26,7 +26,7 @@ Visual Studio Code Insiders no Linux.
 
 **Número do grupo:** 08
 
-**Nome do grupo:** Grupo Itaú Aoteraoa
+**Nome do grupo:** Grupo Itaú Aoteaora
 
 - **Membros**
   - [Gustavo Costa](https://github.com/gusbemacbe)
